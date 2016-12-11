@@ -7,10 +7,10 @@ Dan Banks
 
 ##Overview
 
-[Google Drive](https://drive.google.com/drive/folders/0B_2e_AVgx5V6WVljNjRpdWhmUVk?usp=sharing)    
-[Notebook](../Mapping Similarity to Make Predictions.html)
-[Video](#)
-[Webpage](#)
+[Google Drive](https://drive.google.com/drive/folders/0B_2e_AVgx5V6WVljNjRpdWhmUVk?usp=sharing)      
+[Notebook](../Mapping Similarity to Make Predictions.html)    
+[Video](#)    
+[Webpage](#)   
 
 We wanted to create a way to group people based on similarities between them, then use those similarities to make predictions about a particular persons behavior.
 To test the predictive validity of our approach we gathered data on movie critics from metacritic. Using their scores and reviews we constructed 3 different models of similarity. We combined those 3 models into a single model and queried it using a movie and a movie critic to get the predicted critic score from our model. We then checked it against the actual score of the movie critic to get a sense of how accurate similarity scalers were at prediciting the score of the movie critic we cared about.
