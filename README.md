@@ -9,7 +9,7 @@ Dan Banks
 
 [Google Drive](https://drive.google.com/drive/folders/0B_2e_AVgx5V6WVljNjRpdWhmUVk?usp=sharing)      
 [Notebook](https://github.tamu.edu/pages/danbanks15/Mapping-Similarity-to-Make-Predictions/Mapping%20Similarity%20to%20Make%20Predictions.html)    
-[Video](#)    
+[Video](https://www.youtube.com/watch?v=rmDODFpM6Js)    
 [Webpage](#)   
 
 We wanted to create a way to group people based on similarities between them, then use those similarities to make predictions about a particular persons behavior.
