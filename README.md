@@ -8,7 +8,7 @@ Dan Banks
 ##Overview
 
 [Google Drive](https://drive.google.com/drive/folders/0B_2e_AVgx5V6WVljNjRpdWhmUVk?usp=sharing)      
-[Notebook](../Mapping Similarity to Make Predictions.html)    
+[Notebook](https://github.tamu.edu/pages/danbanks15/Mapping-Similarity-to-Make-Predictions/Mapping%20Similarity%20to%20Make%20Predictions.html)    
 [Video](#)    
 [Webpage](#)   
 
