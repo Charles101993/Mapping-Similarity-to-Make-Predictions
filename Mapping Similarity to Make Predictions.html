@@ -11743,7 +11743,6 @@ div#notebook {
     </script>
     <!-- End of mathjax configuration --></head>
 <body>
-   <a href="https://github.tamu.edu/danbanks15/Mapping-Similarity-to-Make-Predictions" class="btn">Back to GitHub</a>
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
@@ -11753,6 +11752,8 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Mapping-Similarity-to-Make-Predictions">Mapping Similarity to Make Predictions<a class="anchor-link" href="#Mapping-Similarity-to-Make-Predictions">&#182;</a></h1><p>by Meg &amp; Becky</p>
+<p>It is not much of a secret that people are impressionable. As we grow older everything from our taste in music, religion, food, politics, etc. is conditioned directly or indirectly from the people we interact with. Therefore, it seems reasonable that if two people are similar and one of those people exhibits some measurable behavior, then the other person will probably exhibit a similar behavior when in the same context.</p>
+<p>Our aim was to use this concept to make predictions on the score a critic might give for a movie. Our procedure is outlined below, as well our concluding thoughts and takeaways from the endeavour.</p>
 
 </div>
 </div>
@@ -14890,7 +14891,8 @@ AECXhCEAAKBLwhAAANAlYQgAAOjS/w9eTyY/1cq/8wAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Model-2:-WordNet-Similarities">Model 2: WordNet Similarities<a class="anchor-link" href="#Model-2:-WordNet-Similarities">&#182;</a></h3><p>Do not run this code, it takes too long.</p>
+<h3 id="Model-2:-WordNet-Similarities">Model 2: WordNet Similarities<a class="anchor-link" href="#Model-2:-WordNet-Similarities">&#182;</a></h3><p>The aim of this model is to derive similarity scores based on the synonymic similarity of the language used in one critic's reviews to the language that other reviewers used in their reviews. The NLTK Python module was used to interface with WordNet similarity scores, which were used to gauge word similarity between reviews.</p>
+<p>Do not run this code, it takes too long.</p>
 
 </div>
 </div>
@@ -15045,7 +15047,8 @@ AECXhCEAAKBLwhAAANAlYQgAAOjS/w9eTyY/1cq/8wAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Model-3:-tf-idf-vectorization">Model 3: tf-idf vectorization<a class="anchor-link" href="#Model-3:-tf-idf-vectorization">&#182;</a></h3><p>Do not run this code, it takes too long.</p>
+<h3 id="Model-3:-tf-idf-vectorization">Model 3: tf-idf vectorization<a class="anchor-link" href="#Model-3:-tf-idf-vectorization">&#182;</a></h3><p>The tf-idf vectorization is another text model which counts the frequency of words used in reviews and compares those with other critic's reviews. Similarity scores were created based on how well a reviewer's word frequency distribution matched another</p>
+<p>Do not run this code, it takes too long.</p>
 
 </div>
 </div>
@@ -15204,7 +15207,7 @@ AECXhCEAAKBLwhAAANAlYQgAAOjS/w9eTyY/1cq/8wAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Combining-Models">Combining Models<a class="anchor-link" href="#Combining-Models">&#182;</a></h3><p>We combined the predictions of each intermediate model by weighting each and adding them together for a final result. To calculate optimal weights, we fed the result for each model into a linear regression model and trained it on both a 50/50 train-test split.</p>
+<h3 id="Combining-Models">Combining Models<a class="anchor-link" href="#Combining-Models">&#182;</a></h3><p>We combined the predictions of each intermediate model by weighting each and adding them together for a final result. To calculate optimal weights, we fed the result for each model into a linear regression model and trained it on both a 50/50 train-test split and k-fold partitioning.</p>
 
 </div>
 </div>
@@ -19339,18 +19342,16 @@ IoQnAABFCE8AAIr4N5WWEkpqidaLAAAAAElFTkSuQmCC
 </div>
 
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span> 
-</pre></div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Take-aways">Take aways<a class="anchor-link" href="#Take-aways">&#182;</a></h1><p>Through some trial and error we were able to improve our model's accuracy, although the final model is still not strong enough to make good predictions. What we noticed is that adding more observation features produced the most significant results and that refinement through manipulation of existing features was not as powerful as we had anticipated. We believe our focus on the perplexity of our model hindered its potential.</p>
+<p>In the future, more raw variables should be collected and analysed. Also, the computation and memory involved in manipulating features made it almost intractable to do reasonable sentiment analysis over all of our review text. Despite our failure to make good predictions, we are extremely optimistic about the viability of this approach. It is our opinion that mapping similarities between groups of people should have tremendous potential for predicting uncertain human behaviors.</p>
 
 </div>
 </div>
-</div>
-
 </div>
     </div>
   </div>
