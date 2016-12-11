@@ -1,4 +1,8 @@
 #Similarity Matrix for Movie Reviewers 
+
+[Google Drive](https://drive.google.com/drive/folders/0B_2e_AVgx5V6WVljNjRpdWhmUVk?usp=sharing)    
+[Notebook](https://drive.google.com/drive/folders/0B_2e_AVgx5V6WVljNjRpdWhmUVk?usp=sharing)    
+
 ##Team members:
 Charles Beehner  
 Dan Banks
